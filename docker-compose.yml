@@ -1,0 +1,6 @@
+version: "1.0"
+services:
+  # this container will deploy the contract to sepolia testnet
+  contract-deployment:
+    image: "getter-setter-contract-deployment"
+    command: "ci:deployment"
